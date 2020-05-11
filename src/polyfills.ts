@@ -52,7 +52,8 @@
  *
  */
 
-import './zone-flags.ts';
+// import './zone-flags.ts';
+(window as any).__Zone_disable_customElements = true;
 
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
